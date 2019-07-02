@@ -18,6 +18,6 @@ node('k8s-node') {
 	stage('Clean & Checkout') {
         deleteDir()
         checkout scm
-	sh 'sleep 3000000000000'
+	sh 'mvn clean install'
 	}
 }
