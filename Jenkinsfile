@@ -18,6 +18,6 @@ node('k8s-node') {
 	stage('Clean & Checkout') {
         deleteDir()
         checkout scm
-	sh 'java -version && echo $JAVA_HOME'
+	sh 'mvn clean install'
 	}
 }
