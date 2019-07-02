@@ -14,7 +14,7 @@ properties([
 ]);
 
 
-node('k8s-npm-node') {
+node('k8s-node') {
 	stage('Clean & Checkout') {
         deleteDir()
         checkout scm
