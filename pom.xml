@@ -39,7 +39,7 @@
 	<scm>
 		<url>https://github.com/felipeAndrade0918/maven-release-demo</url>
 		<connection>scm:git:git://github.com/felipeAndrade0918/maven-release-demo.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/felipeAndrade0918/maven-release-demo.git</developerConnection>
+		<developerConnection>scm:git:ssh://git@github.com/felipeAndrade0918/maven-release-demo-java-11.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
 
