@@ -59,8 +59,8 @@
 				<configuration>
 					<release>11</release>
 					<argLine>
-            			--illegal-access=permit
-        			</argLine>
+            				--illegal-access=permit
+        				</argLine>
 				</configuration>
 			</plugin>
 		</plugins>
