@@ -18,6 +18,6 @@ node('docker-docker') {
 	stage('Clean & Checkout') {
         deleteDir()
         checkout scm
-	sh 'mvn clean'
+	sh 'docker ps'
 	}
 }
