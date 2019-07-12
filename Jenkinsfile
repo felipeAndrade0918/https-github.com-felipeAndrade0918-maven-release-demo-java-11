@@ -18,6 +18,6 @@ node('docker-docker') {
 	stage('Clean & Checkout') {
         deleteDir()
         checkout scm
-	sh 'docker ps'
+	sh 'sleep 30 && docker ps'
 	}
 }
