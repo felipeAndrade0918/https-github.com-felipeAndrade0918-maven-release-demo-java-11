@@ -14,10 +14,10 @@ properties([
 ]);
 
 
-node('k8s-node') {
+node('docker-docker') {
 	stage('Clean & Checkout') {
         deleteDir()
         checkout scm
-	sh 'mvn clean install'
+	sh 'mvn clean'
 	}
 }
